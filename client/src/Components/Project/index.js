@@ -2,7 +2,7 @@ import React from "react"
 import "./style.css"
 function Project(props) {
     return (
-        <div class="card mb-3 w-75">
+        <div class="card mb-3 w-75 project">
             <div class="row no-gutters">
                 <div class="col-md-4">
                     <img src={props.img} class="card-img" alt={props.title} />

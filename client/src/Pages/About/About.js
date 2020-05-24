@@ -11,8 +11,9 @@ const About = () => {
             </Jumbotron>
             <Row>
                 <Col size="md-10">
-                    <p className="h3">Lorem Ipsum</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elit mauris, lacinia id est id, iaculis ultricies odio. Nullam a libero dolor. Aliquam auctor varius ornare. Pellentesque porta tortor ut dolor rutrum vulputate. Donec eget tempor tortor, in sodales leo. Duis ligula ipsum, vehicula sit amet faucibus sed, suscipit molestie mi. Praesent eleifend eu nisl quis mattis. Aenean imperdiet tincidunt libero a tempus. Nam diam diam, commodo et maximus in, dictum at nunc. Quisque tincidunt dignissim arcu, non vehicula lorem auctor egestas.</p>
+                    <p className="h3">A Little Bit About Me</p>
+                    <p>Hello! I'm Allan. I'm a Jr. Web Developer based out of Houston, TX. I am capable of full-stack web development utilizing the MERN Stack. I've recently participated in a Web Development bootcamp run by University of Texas at Austin. I am currently looking for employment so please contact me in interested!</p>
+                    <p>In my off time, I enjoy many hobbies, including video games, model building, and watching motorsports, primarily Formula 1 Racing.</p>
                 </Col>
             </Row>
             <Row>

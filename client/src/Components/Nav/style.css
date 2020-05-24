@@ -2,4 +2,7 @@ nav.navbar {
     margin-bottom: 0;
     background-color: #3C2B55;
   }
-  
+.icon {
+  max-width: 32px;
+  max-height: 32px;
+}
