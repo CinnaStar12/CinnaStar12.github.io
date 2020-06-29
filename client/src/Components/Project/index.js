@@ -11,8 +11,8 @@ function Project(props) {
                     <div class="card-body">
                         <h5 class="card-title">{props.title}</h5>
                         <p class="card-text">{props.text}</p>
-                        <a href={props.deploy} className="btn btn-primary m-1">Check It Out</a>
-                        <a href={props.repo} className="btn btn-secondary m-1">Repository</a>
+                        <a href={props.deploy} className="btn btn-primary m-1" target="_blank" rel="noopener noreferrer">Check It Out</a>
+                        <a href={props.repo} className="btn btn-secondary m-1" target="_blank" rel="noopener noreferrer">Repository</a>
                     </div>
                 </div>
             </div>

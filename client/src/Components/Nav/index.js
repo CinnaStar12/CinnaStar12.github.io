@@ -19,10 +19,13 @@ function Nav() {
             <li className="nav-item">
               <a className="nav-link" href="/portfolio"><p className="h6">Portfolio</p></a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link" href="https://drive.google.com/file/d/16u6fcy_JRfmKWZ_tgQi9PByLWZ1iF596/view?usp=sharing" target="_blank" rel="noopener noreferrer"><p className="h6">Resume</p></a>
+            </li>
           </ul>
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <span className="navbar-text">Get in Contact</span>
+              <a href="/contact"><span className="navbar-text">Get in Contact</span></a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="mailto:allan.binayao@gmail.com"><img className="icon" src="/assets/images/gmail.png" alt="Email" /></a>
@@ -31,7 +34,7 @@ function Nav() {
               <a className="nav-link" href="https://github.com/CinnaStar12"><img className="icon" src="/assets/images/githubsmol.png" alt="GitHub" /></a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://www.linkedin.com/in/allan-binayao-097599196/"><img className="icon" src="/assets/images/linkedin.png" alt="LinkedIn"/></a>
+              <a className="nav-link" href="https://www.linkedin.com/in/allan-binayao-097599196/"><img className="icon" src="/assets/images/linkedin.png" alt="LinkedIn" /></a>
             </li>
           </ul>
         </div>

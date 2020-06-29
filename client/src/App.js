@@ -5,6 +5,7 @@ import About from "./Pages/About/About"
 import Portfolio from "./Pages/Portfolio"
 import Nav from "./Components/Nav"
 import Footer from "./Components/Footer"
+import Contact from "./Pages/Contact"
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
        </Route>
        <Route exact path={"/portfolio"}>
          <Portfolio />
+       </Route>
+       <Route exact pathe={"/contact"}>
+         <Contact />
        </Route>
      </Switch>
      <Footer />
